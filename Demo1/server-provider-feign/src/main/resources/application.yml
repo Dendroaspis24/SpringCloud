@@ -14,3 +14,9 @@ feign:
     # 根据具体业务，将依赖服务分为：强依赖和若依赖。强依赖服务不可用会导致当前业务中止，而弱依赖服务的不可用不会导致当前业务的中止。
     #
     #不可用服务的调用快速失败一般通过 超时机制 , 熔断器 和熔断后的 降级方法 来实现
+management:
+  endpoints:
+    web:
+      exposure:
+        include: hystrix.stream
+        # management.endpoints.web.exposure.include 这个是用来暴露 endpoints 的。由于 endpoints 中会包含很多敏感信息，除了 health 和 info 两个支持 web 访问外，其他的默认不支持 web 访问

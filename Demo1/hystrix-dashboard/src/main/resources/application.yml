@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: hystrix-dashboard
+server:
+  port: 11000 # 启动后可以访问  http://localhost:11000/hystrix
