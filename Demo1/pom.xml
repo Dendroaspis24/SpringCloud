@@ -12,5 +12,6 @@
     <modules>
         <module>eureka-server</module>
         <module>server-provider</module>
+        <module>server-provider-feign</module>
     </modules>
 </project>
