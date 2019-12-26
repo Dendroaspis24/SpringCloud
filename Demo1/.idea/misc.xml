@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/server-provider/pom.xml" />
         <option value="$PROJECT_DIR$/server-provider-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/hystrix-dashboard/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

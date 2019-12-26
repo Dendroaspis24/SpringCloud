@@ -1,0 +1,10 @@
+
+spring:
+  application:
+    name: server-provider # 服務名稱
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7000/eureka/  # 指向注册中心地址
+server:
+  port: 8000
