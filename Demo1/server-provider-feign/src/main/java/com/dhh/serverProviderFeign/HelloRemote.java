@@ -8,7 +8,7 @@ import javax.management.loading.PrivateClassLoader;
 
 
 //调用服务提供者的具体方法
-@FeignClient(name = "server-provider")//注解指定这个接口所要调用的服务名称
+@FeignClient(name = "server-provider",fallback = HelloRemoteHystrix.class)//name:指定这个接口所要调用的服务名称 fallback:添加指定的fallbac类，服务熔断时调用该类对应的方法
 public interface HelloRemote {
 
     final static String APIURL = "/hello";//若对应一个controller路径 可以定义变量统一管理

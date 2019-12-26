@@ -16,7 +16,7 @@ public class HelloController {
     //服务提供者的controller方法
     @GetMapping("/")
     public String Hello(@RequestParam String name){
-        return "HELLO!"+name+ DateFormatUtils.format(new Date(),"yyyyMMdd");
+        return "HELLO!"+name+ DateFormatUtils.format(new Date(),"yyyyMMdd")+getAge(12);
     }
 
     @GetMapping("/getAge")
