@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Demo1/Demo1.iml" filepath="$PROJECT_DIR$/Demo1/Demo1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Demo2/Demo2.iml" filepath="$PROJECT_DIR$/Demo2/Demo2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/SpringCloud.iml" filepath="$PROJECT_DIR$/.idea/SpringCloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Demo1/server-provider-feign/demo.iml" filepath="$PROJECT_DIR$/Demo1/server-provider-feign/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Demo1/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/Demo1/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Demo1/hystrix-dashboard/hystrix-dashboard.iml" filepath="$PROJECT_DIR$/Demo1/hystrix-dashboard/hystrix-dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Demo1/server-provider/server-provider.iml" filepath="$PROJECT_DIR$/Demo1/server-provider/server-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Demo2/spring-config-git-client/spring-config-git-client.iml" filepath="$PROJECT_DIR$/Demo2/spring-config-git-client/spring-config-git-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Demo2/spring-config-git-server/spring-config-git-server.iml" filepath="$PROJECT_DIR$/Demo2/spring-config-git-server/spring-config-git-server.iml" />
+    </modules>
+  </component>
+</project>
