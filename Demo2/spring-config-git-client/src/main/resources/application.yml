@@ -1,0 +1,8 @@
+server:
+  port: 13000
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
+        # Spring Boot 1.5.X 以上默认开通了安全认证，所以要在配置文件 application.yml 中添加以下配置以将 /actuator/refresh 这个 Endpoint 暴露出来

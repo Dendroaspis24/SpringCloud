@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: config-client
+  cloud:
+    config:
+    # uri: http://localhost:12000/  开启服务注册，将server端注册后可以去掉该配置 通过discovery 和 eureka指向server端地址
+      name: config-client
+      profile: dev
+      label: master
+      discovery:
+        enabled: true # 开启 Config 服务发现支持
+        service-id: config-server # 指定 Server 端的 name, 也就是 Server 端 spring.application.name 的值
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7000/eureka/

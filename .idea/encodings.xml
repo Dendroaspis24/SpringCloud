@@ -6,11 +6,8 @@
     <file url="file://$PROJECT_DIR$/Demo1/server-provider" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Demo1/server-provider-feign" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Demo2" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Demo2" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Demo2" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Demo2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Demo2/spring-config-git-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Demo2/spring-config-git-server" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Demo2/spring-config-git-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Demo2/spring-config-git-server/src/main/resources/application.yml" charset="GBK" />
   </component>
 </project>
